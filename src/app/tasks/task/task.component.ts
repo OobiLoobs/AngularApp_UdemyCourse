@@ -1,5 +1,5 @@
 import { Component, inject, Input } from '@angular/core';
-import { Task } from '../task.model'
+import { Task } from '../task.model';
 import { CardComponent } from '../../shared/card/card.component';
 import { DatePipe } from '@angular/common';
 import { TasksService } from '../tasks.service';
